@@ -1,0 +1,48 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+img {
+  width: 230px;
+  height: 230px;
+  object-fit: fill;
+}
+
+img:hover 
+{
+  transform: scale(1.2,1.2);
+}
+body {
+  background-color: linen;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+h6 { 
+  font-size: 15px;
+  font-family: cursive;
+}
+h1 {
+  font-family: fantasy;
+  border: 2px groove gold;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-radius: 30px;
+}
+
+h5 {
+  border: 2px groove gold;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 30px;
+}
+
+h4{
+  padding-bottom: 2%;
+}
+
+
